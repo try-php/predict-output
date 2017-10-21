@@ -37,7 +37,7 @@ $assertions->predictOutput(function () {
 
 #### `predictOutput($capture, $content)`
 
-Method to compare an output stream with a given string.
+Method to compare an output capture with a given string.
 
 ##### Arguments
 
