@@ -1,0 +1,27 @@
+{
+    "name": "try/predict-output",
+    "description": "Prediction package for CLI output",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Willi Eßer",
+            "email": "willi.esser@troublete.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+    	"psr-4": {
+    		"TryPhp\\": "./src"
+    	}
+    },
+    "scripts": {
+    	"test": "@php test.php"
+    },
+    "require": {
+        "try/clear-string": "^1.0"
+    },
+    "require-dev": {
+        "troublete/crayon": "^1.1"
+    }
+}
