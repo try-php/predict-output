@@ -24,7 +24,7 @@ $assertions = new class() {
 
 $assertions->predictOutput(function () {
 	echo '\e[33msomething\n';
-}, 'something'); // wont throw an exception
+}, 'something'); // won't throw an exception
 
 $assertions->predictOutput(function () {
 	echo '\e[33msomething\n';
